@@ -15,6 +15,8 @@
 		1503087F1C3CE07300F7010D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1503087D1C3CE07300F7010D /* LaunchScreen.storyboard */; };
 		1503088A1C3CE07300F7010D /* OverlayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150308891C3CE07300F7010D /* OverlayDemoTests.swift */; };
 		150308951C3CE07300F7010D /* OverlayDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150308941C3CE07300F7010D /* OverlayDemoUITests.swift */; };
+		150308A31C3CE0DA00F7010D /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150308A21C3CE0DA00F7010D /* Overlay.swift */; };
+		150308A51C3CE4A100F7010D /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 150308A41C3CE4A100F7010D /* overlaygraphic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		150308901C3CE07300F7010D /* OverlayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		150308941C3CE07300F7010D /* OverlayDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayDemoUITests.swift; sourceTree = "<group>"; };
 		150308961C3CE07300F7010D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150308A21C3CE0DA00F7010D /* Overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		150308A41C3CE4A100F7010D /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				150308711C3CE07300F7010D /* AppDelegate.swift */,
 				150308731C3CE07300F7010D /* ViewController.swift */,
+				150308A21C3CE0DA00F7010D /* Overlay.swift */,
+				150308A41C3CE4A100F7010D /* overlaygraphic.png */,
 				150308751C3CE07300F7010D /* Main.storyboard */,
 				1503087B1C3CE07300F7010D /* Assets.xcassets */,
 				1503087D1C3CE07300F7010D /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1503087F1C3CE07300F7010D /* LaunchScreen.storyboard in Resources */,
+				150308A51C3CE4A100F7010D /* overlaygraphic.png in Resources */,
 				1503087C1C3CE07300F7010D /* Assets.xcassets in Resources */,
 				150308771C3CE07300F7010D /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				150308741C3CE07300F7010D /* ViewController.swift in Sources */,
 				150308721C3CE07300F7010D /* AppDelegate.swift in Sources */,
+				150308A31C3CE0DA00F7010D /* Overlay.swift in Sources */,
 				1503087A1C3CE07300F7010D /* OverlayDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverlayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.OverlayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverlayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.OverlayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
